@@ -1,0 +1,14 @@
+{
+"questions": [
+    {
+    "question": "What is the capital of NY?",
+    "choices": ["Tupper Lake", "Albany", "NYC", "Buffalo"],
+    "correctAnswerIdx": 1
+    },
+    {
+        "question": "What is my cat's name?",
+        "choices": ["Habibi", "Panzer", "Peanut Butter", "Megatron"],
+        "correctAnswerIdx": 0
+        }
+]
+}
