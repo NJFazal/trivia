@@ -1,14 +1,24 @@
 {
 "questions": [
     {
-    "question": "What is the capital of NY?",
-    "choices": ["Tupper Lake", "Albany", "NYC", "Buffalo"],
+    "question": "What is the tiny piece at the end of a shoelace called?",
+    "choices": ["The Tip", "An Aglet", "The Cap", "The Tassle"],
     "correctAnswerIdx": 1
     },
     {
-        "question": "What is my cat's name?",
-        "choices": ["Habibi", "Panzer", "Peanut Butter", "Megatron"],
-        "correctAnswerIdx": 0
-        }
+    "question": "In what country did the first Starbucks open outside of North America?",
+    "choices": ["Canada", "Mexico", "India", "Japan"],
+    "correctAnswerIdx": 3
+    },
+    {
+    "question": "Where were the Declaration of Independence, the Constitution, and the Bill of Rights stored during World War II?",
+    "choices": ["Fort Knox", "The Alamo", "The Smithsonian Archives", "The Pentagon"],
+    "correctAnswerIdx": 0
+    },
+    {
+    "question": "In 2009, what became the first Morse code character to be added since WWII?",
+    "choices": ["{}", "*", "@", "^"],
+    "correctAnswerIdx": 2
+    }
 ]
 }
