@@ -6,6 +6,8 @@ import StatBar from './components/StatBar';
 import QuestionComp from './components/Question';
 import Reset from './components/Reset';
 import Classnames from 'classnames';
+import Answer_module from './components/Answer.module.scss';
+import Answers_module from './components/Answers.module.scss';
 
 function App() {
     const allQuestions = questions as Questions;
@@ -50,7 +52,11 @@ function App() {
                 question={allQuestions.questions[currentQuestionIdx]}
                 onSubmit={onSubmit}
             />
-            {waitingToAdvance && <button onClick={advance}>Next Question...</button>}
+            {waitingToAdvance && (
+                <button onClick={advance} className={Answer_module.button}>
+                    Next Question...
+                </button>
+            )}
         </div>
     );
 }

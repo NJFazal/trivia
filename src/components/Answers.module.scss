@@ -1,10 +1,19 @@
 .choices {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     border-radius: 5px;
-    background-color: #222422;
-    color: #FFFFFF;
-    align-items: center;
-    max-width: 500px;
+    background-color: #fce160;
+    color: black;
+    font-weight: 600;
+    font-family: Verdana, sans-serif;
+    opacity: 1;
+    box-shadow: 3px 3px 11px -2px rgba(0, 0, 0, 0.52);
+    text-align: center;
+    direction: ltr;
+    border: 0px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 50%;
+    align-items: baseline;
+    min-width: 100%;
+    justify-content: space-evenly;
 }

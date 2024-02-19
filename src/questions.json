@@ -1,24 +1,74 @@
 {
 "questions": [
     {
-    "question": "What is the tiny piece at the end of a shoelace called?",
-    "choices": ["The Tip", "An Aglet", "The Cap", "The Tassle"],
+    "question": "What does ProofPoint do?",
+    "choices": ["Creates professional-looking slideshows suitable for projections.","Email security/email filter to protect against advanced email threats.", "Scans emails for mentions of key words to send them to the proper folder in Outlook.", "Organizes all user login credentials."],
     "correctAnswerIdx": 1
     },
     {
-    "question": "In what country did the first Starbucks open outside of North America?",
-    "choices": ["Canada", "Mexico", "India", "Japan"],
-    "correctAnswerIdx": 3
+    "question": "Who is the NOC’s most tenured employee?",
+    "choices": ["Jessica", "Thoeun", "Johnny", "Reggie"],
+    "correctAnswerIdx": 1
     },
     {
-    "question": "Where were the Declaration of Independence, the Constitution, and the Bill of Rights stored during World War II?",
-    "choices": ["Fort Knox", "The Alamo", "The Smithsonian Archives", "The Pentagon"],
+    "question": "What is the NOC’s overall SLA goal?",
+    "choices": ["90%", "100%", "80%", "98%"],
     "correctAnswerIdx": 0
     },
     {
-    "question": "In 2009, what became the first Morse code character to be added since WWII?",
-    "choices": ["{}", "*", "@", "^"],
+    "question": "What is the correct process for submitting a ticket with the help desk?",
+    "choices": ["Call 585.454.2020 or email manager@brite.com", "Stop by the NOC or email support@brite.com", "Call 866.224.6698 or email help@brite.com", "Call 911 and Stop Drop and Roll"],
     "correctAnswerIdx": 2
+    },
+    {
+    "question": "How many years have we been providing technology to law enforcement?",
+    "choices": ["15 Years", "30 Years", "20 Years", "25 Years"],
+    "correctAnswerIdx": 3
+    },
+    {
+    "question": "Who was our first public safety customer that is still a customer today?",
+    "choices": ["Rochester Police Department", "Buffalo Police Department", "Avon Police Department", "Edmond Police Department"],
+    "correctAnswerIdx": 0
+    },
+    {
+    "question": "What rugged computer manufacturer do we represent?",
+    "choices": ["Hazpac", "Getac", "CDW", "Nexcom"],
+    "correctAnswerIdx": 1
+    },
+    {
+    "question": "What is FirstNet?",
+    "choices": ["A messaging app for First Responders", "A telecommunications service used primarily by Fire Departments", "A nationwide cellular band dedicated to First Responders created after the 9/11 attacks", "An internet service provider dedicated to Police Departments"],
+    "correctAnswerIdx": 2
+    },
+    {
+    "question": "Which Public Safety Representative played professional baseball?",
+    "choices": ["Brandon Proctor", "Thomas Winters", "Tucker Beneville", "Ryan Nye"],
+    "correctAnswerIdx": 3
+    },
+    {
+    "question": "Which Public Safety Representative was a baseball umpire?",
+    "choices": ["Grayson Carter", "Tucker Beneville", "Ryan Nye", "Jamie Isaacs"],
+    "correctAnswerIdx": 1
+    },
+    {
+    "question": "Most police departments use thermal printers, what does a thermal printer use to create an image on paper?",
+    "choices": ["Heat", "Resin", "Polyethylene Terephthalate", "Acrylonitrile Butadiene Styrene"],
+    "correctAnswerIdx": 0
+    },
+    {
+    "question": "Every year the Michigan State Police perform annual Evaluations on police vehicles.  In their 2024 testing, the Ford Mustang Mach-E AWD delivered the fastest 0-60 mph time.  What was it?",
+    "choices": ["3.6 seconds", "3.8 seconds", "4.07 seconds", "4.7 seconds"],
+    "correctAnswerIdx": 2
+    },
+    {
+    "question": "What does MIL STD mean?",
+    "choices": ["Military Intelligence Log - Signal To Deploy.", "A standardization system designed by the Military to test first response communications.", "Man, I Love Some Tasty Doritos.", "A rating that means the product meets established engineering and technical requirements for military use."],
+    "correctAnswerIdx": 3
+    },
+    {
+    "question": "What does CJIS stand for?",
+    "choices": ["Chief Justice Intercommuncication System", "Criminal Justice Information Systems", "Cross Join In SQL", "Crazy Jumping Iguana Squad"],
+    "correctAnswerIdx": 1
     }
 ]
 }
