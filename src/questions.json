@@ -1,74 +1,169 @@
 {
 "questions": [
     {
-    "question": "What does ProofPoint do?",
-    "choices": ["Creates professional-looking slideshows suitable for projections.","Email security/email filter to protect against advanced email threats.", "Scans emails for mentions of key words to send them to the proper folder in Outlook.", "Organizes all user login credentials."],
-    "correctAnswerIdx": 1
-    },
-    {
-    "question": "Who is the NOC’s most tenured employee?",
-    "choices": ["Jessica", "Thoeun", "Johnny", "Reggie"],
-    "correctAnswerIdx": 1
-    },
-    {
-    "question": "What is the NOC’s overall SLA goal?",
-    "choices": ["90%", "100%", "80%", "98%"],
+    "question": "What keyword should be avoided for variable declaration due to its lack of block scope?",
+    "choices": ["var","const", "let", "function"],
     "correctAnswerIdx": 0
     },
     {
-    "question": "What is the correct process for submitting a ticket with the help desk?",
-    "choices": ["Call 585.454.2020 or email manager@brite.com", "Stop by the NOC or email support@brite.com", "Call 866.224.6698 or email help@brite.com", "Call 911 and Stop Drop and Roll"],
+    "question": "Which variable declaration should be used when the variable needs to be reassigned within its scope?",
+    "choices": ["var", "const", "let", "function"],
     "correctAnswerIdx": 2
     },
     {
-    "question": "How many years have we been providing technology to law enforcement?",
-    "choices": ["15 Years", "30 Years", "20 Years", "25 Years"],
-    "correctAnswerIdx": 3
-    },
-    {
-    "question": "Who was our first public safety customer that is still a customer today?",
-    "choices": ["Rochester Police Department", "Buffalo Police Department", "Avon Police Department", "Edmond Police Department"],
+    "question": "Functions can be declared using the function keyword followed by a name and parameters.",
+    "choices": ["true", "false", "mostly true", "mostly false"],
     "correctAnswerIdx": 0
     },
     {
-    "question": "What rugged computer manufacturer do we represent?",
-    "choices": ["Hazpac", "Getac", "CDW", "Nexcom"],
+    "question": "What keyword is used to return values from a function?",
+    "choices": ["yield", "return", "exit", "break"],
     "correctAnswerIdx": 1
     },
     {
-    "question": "What is FirstNet?",
-    "choices": ["A messaging app for First Responders", "A telecommunications service used primarily by Fire Departments", "A nationwide cellular band dedicated to First Responders created after the 9/11 attacks", "An internet service provider dedicated to Police Departments"],
-    "correctAnswerIdx": 2
+    "question": "What does function hoisting mean in JavaScript?",
+    "choices": ["Functions are pushed to the bottom of their scope.", "Functions are lifted to the top of their scope.", "Functions are removed from their scope.", "Functions are executed immediately."],
+    "correctAnswerIdx": 1
     },
     {
-    "question": "Which Public Safety Representative played professional baseball?",
-    "choices": ["Brandon Proctor", "Thomas Winters", "Tucker Beneville", "Ryan Nye"],
+    "question": "Which ScriptType is used for executing custom NetSuite pages using server-side JavaScript?",
+    "choices": ["ClientScript", "UserEventScript", "SavedSearch", "Suitelet"],
     "correctAnswerIdx": 3
     },
     {
-    "question": "Which Public Safety Representative was a baseball umpire?",
-    "choices": ["Grayson Carter", "Tucker Beneville", "Ryan Nye", "Jamie Isaacs"],
+    "question": "What is an example of an EntryPoint for UserEventScript?",
+    "choices": ["pageInit", "beforeLoad", "postSourcing", "validateLine"],
     "correctAnswerIdx": 1
     },
     {
-    "question": "Most police departments use thermal printers, what does a thermal printer use to create an image on paper?",
-    "choices": ["Heat", "Resin", "Polyethylene Terephthalate", "Acrylonitrile Butadiene Styrene"],
+    "question": "Which API is used to create, read, update, and delete records in NetSuite?",
+    "choices": ["search", "query", "record", "log"],
+    "correctAnswerIdx": 2
+    },
+    {
+    "question": "What should be done before deploying a script to production in NetSuite?",
+    "choices": ["Skip following NetSuite's deployment best practices.", "Deploy directly to production without a sandbox.", "Deploy the script without testing.", "Associate the script with the appropriate record type."],
+    "correctAnswerIdx": 3
+    },
+    {
+    "question": "What should be ensured before deploying a script to production in NetSuite?",
+    "choices": ["Avoid following NetSuite's deployment best practices.", "Properly test the script in a sandbox account.", "Ignore any disruptions to the system during deployment.", "Deploy without associating with any record type."],
+    "correctAnswerIdx": 1
+    },
+    {
+    "question": "Which ScriptType is commonly used for form validation and user interface enhancements on the client side?",
+    "choices": ["ClientScript", "UserEventScript", "Suitelet", "SavedSearch"],
     "correctAnswerIdx": 0
     },
     {
-    "question": "Every year the Michigan State Police perform annual Evaluations on police vehicles.  In their 2024 testing, the Ford Mustang Mach-E AWD delivered the fastest 0-60 mph time.  What was it?",
-    "choices": ["3.6 seconds", "3.8 seconds", "4.07 seconds", "4.7 seconds"],
-    "correctAnswerIdx": 2
-    },
-    {
-    "question": "What does MIL STD mean?",
-    "choices": ["Military Intelligence Log - Signal To Deploy.", "A standardization system designed by the Military to test first response communications.", "Man, I Love Some Tasty Doritos.", "A rating that means the product meets established engineering and technical requirements for military use."],
+    "question": "What does block scope refer to in JavaScript?",
+    "choices": ["The scope of a variable defined within a function.", "The scope of a variable declared with the const keyword.", "The scope of a variable declared with the let keyword.", "The scope of a variable limited to the block ({}) in which it is defined."],
     "correctAnswerIdx": 3
     },
     {
-    "question": "What does CJIS stand for?",
-    "choices": ["Chief Justice Intercommuncication System", "Criminal Justice Information Systems", "Cross Join In SQL", "Crazy Jumping Iguana Squad"],
+    "question": "What is an example of an EntryPoint for Suitelet?",
+    "choices": ["beforeLoad", "pageInit", "onRequest", "fieldChanged"],
+    "correctAnswerIdx": 2
+    },
+    {
+    "question": "Which API is used to execute ad hoc queries against the NetSuite database??",
+    "choices": ["search", "record", "runtime", "query"],
+    "correctAnswerIdx": 3
+    },
+    {
+    "question": "What is the purpose of the runtime API in SuiteScript 2.1?",
+    "choices": ["To create, read, update, and delete records.", "To provide information about the current script execution context.", "To execute ad hoc queries.", "To schedule scripts to run at specified intervals."],
     "correctAnswerIdx": 1
+    },
+    {
+    "question": "What is the syntax for invoking a function named myFunction with no parameters?",
+    "choices":["call myFunction;", "myFunction();", "run myFunction;", "invoke myFunction;"],
+    "correctAnswerIdx": 1
+    },
+    {
+    "question": "What happens if a function in JavaScript does not explicitly return a value?",
+    "choices": ["It returns undefined.", "It returns null.", "It returns an error.", "It returns false."],
+    "correctAnswerIdx": 0
+    },
+    {
+    "question": "Variables declared with var are function-scoped or globally scoped. They can be hoisted, reassigned and redeclared within their scope. What is true about var x = 10?",
+    "choices":["var x = 20; // Redeclaration is allowed", "var x = 10 will stay where it was declared in its scope", "var = 20 // Redeclaration is not allowed", "var = 10 is automatically globally scoped no matter where it is in the script"],
+    "correctAnswerIdx": 0
+    },
+    {
+    "question": "Variables declared with let are block-scoped. They can be reassigned but not redeclared within their scope. They are not hoisted, so you cannot access them before the line they're declared on. What is true about let x = 10",
+    "choices":["x = 20; // Reassignment is not allowed", "let x = 30; // SyntaxError: Identifier 'x' has already been declared", "let x = 10 // can be hoisted", "let x = 10 // can be declared again within the same block scope"],
+    "correctAnswerIdx": 1
+    },
+    {
+    "question": "We use const when you want to declare a variable that won't be reassigned. What is true about variables declared using const?",
+    "choices":["Variables declared with const are not block-scoped.", "They can be reassigned or redeclared within their scope.", "const variables must be initialized at the time of declaration and cannot be left uninitialized.", "Const variables can be hoisted"],
+    "correctAnswerIdx": 2
+    },
+    {
+    "question": "Block scope refers to the scope of a variable within the block of code where it is defined. In JavaScript, a block is typically defined by a pair of curly braces {}. Examples of blocks include:",
+    "choices":["function bodies", "loop bodies", "all of these choices", "blocks created by if, else, switch"],
+    "correctAnswerIdx": 2
+    },
+    {
+    "question": "Passing Parameters: Parameters are variables listed as part of the function definition. They act as placeholders for values that will be provided when the function is invoked. Which part of this function is the parameter to be passed?",
+    "choices": ["The word FUNCTION in function greet(name)", "The name Alice when the function greet(name) is executed","The word GREET in the function greet(name)","The word NAME in function greet(name)"],
+    "correctAnswerIdx": 3
+    },
+    {
+    "question": "Method: In JavaScript, a method is a function that is a property of an object. It allows objects to perform actions or computations. Methods are invoked using dot notation. What does this look like?",
+    "choices":["if.else", "person.greet", "function greet.()", "return{.}"],
+    "correctAnswerIdx": 1
+    },
+    {
+    "question": "To invoke a method on an object, one must:",
+    "choices":["use dot notation with the object's name followed by the method name and curly braces like so: objectName.methodName{}", "use dash notation with the object's name followed by the method name and parentheses like so: objectName-methodName()", "use dot notation with the object's name followed by the method number and parentheses like so: objectName.4()", "use dot notation with the object's name followed by the method name and parentheses like so: objectName.methodName()"],
+    "correctAnswerIdx": 3
+    },
+    {
+    "question": "How should scripts be deployed to NetSuite to avoid disruptions to the system?",
+    "choices": ["Without testing in a sandbox account.","By associating them with random record types."," Following NetSuite's deployment best practices and guidelines.","Deploying directly to production without any preparation."],
+    "correctAnswerIdx": 2
+    },
+    {
+    "question": "Which ScriptType is used to define a search that can be reused and scheduled?",
+    "choices": ["ClientScript", "SavedSearch", "UserEventScript", "Suitelet"],
+    "correctAnswerIdx": 1
+    },
+    {
+    "question": "What is the purpose of the log API in SuiteScript 2.1?",
+    "choices": ["To retrieve data from NetSuite using saved searches.", "To execute ad hoc queries against the NetSuite database.", "To create, read, update, and delete records in NetSuite.", "To log messages to the NetSuite execution log."], 
+    "correctAnswerIdx": 3
+    },
+    {
+    "question": "Which keyword is used to declare a function in JavaScript?",
+    "choices": ["declare", "func", "function", "def"],
+    "correctAnswerIdx": 2
+    },
+    {
+    "question": "Which EntryPoint is triggered before submitting a record in UserEventScript?",
+    "choices": ["beforeLoad", "beforeSubmit", "afterSubmit", "pageInit"],
+    "correctAnswerIdx": 1
+    },
+    {
+    "question": "Which API is used to schedule scripts to run at specified intervals?",
+    "choices": ["search", "query", "record", "task"],
+    "correctAnswerIdx": 3
+    },
+    {
+    "question": "When declaring a variable with const, can its value be reassigned?",
+    "choices": ["Yes", "No", "Only within the same block scope", "Only if it's an object"],
+    "correctAnswerIdx": 1
+    },
+    {
+    "question": "What is the purpose of block-scoping variables with let?",
+    "choices":["To declare variables with global scope.", "To declare variables with function scope.", "To declare variables with block scope.", "To prevent variable declaration."],
+    "correctAnswerIdx": 2
+    },
+    {
+    "question": "Suitelets allow custom NetSuite pages to be created using server-side JavaScript.",
+    "choices": ["True", "False", "Mostly True", "Partly False"],
+    "correctAnswerIdx": 0
     }
 ]
 }
